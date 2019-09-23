@@ -4,9 +4,9 @@ document.addEventListener("DOMContentLoaded", () => {
   taskForm.addEventListener("submit",(e)=>{
     e.preventDefault();
   let li = document.createElement("li");
-  let newTaskInput=document.getElementById("new-task-description").value;
+  let newTaskInput=document.getElementById("new-task-description").value;let button=document.createElement("button");
   document.getElementById("tasks").appendChild(li).innerHTML=newTaskInput;
-  let button=document.createElement("button");
+  
   document.getElementById("tasks").appendChild(button).innerHTML="X";
   });
   newTaskInput.addEventListener("click", (e) => {
