@@ -10,8 +10,9 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("tasks").appendChild(button).innerHTML="X";
   });
   newTaskInput.addEventListener("click", (e) => {
+    
     if (e.target.nodeName === "BUTTON") {
-      e.preventDefault();
+      
      li.remove();
      button.remove();
       
