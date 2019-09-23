@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     e.preventDefault();
   let li = document.createElement("li");
   let button=document.createElement("button");
-  document.getElementById("tasks").appendChild(li).innerHTML=newTaskInput
+  document.getElementById("tasks").appendChild(li).innerHTML=
   document.getElementById("tasks").appendChild(button).innerHTML="X";
   });
   newTaskInput.addEventListener("click", (e) => {
