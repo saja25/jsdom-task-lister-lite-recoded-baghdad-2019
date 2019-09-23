@@ -6,7 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
   let li = document.createElement("li");
   let newTaskInput=document.getElementById("new-task-description").value;
   let button=document.createElement("button");
-  document.getElementById("tasks").appendChild(li).innerHTML=newTaskInput.appendChild(button).innerHTML="X";
+  document.getElementById("tasks").appendChild(li).innerHTML=newTaskInput
+  .appendChild(button).innerHTML="X";
   });
   newTaskInput.addEventListener("click", (e) => {
     if (e.target.nodeName === "BUTTON") {
